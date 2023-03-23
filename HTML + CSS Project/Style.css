@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border-sizing:border-box; 
+    font-family: 'Red Rose', cursive;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0,     
+     0.5)), url(assets/bgcColorName.png);
+    background-size:cover;
+    background-attachment:fixed;
+    font-family:'Red Rose', cursive ;
+}
+/* Header Style */
+body header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 50px;
+}
+/* Navigation Bar */
+
+.Menus {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 55px;
+    list-style: none;
+    font-size: 22px;
+    font-weight: 400;
+    color: #ffc233;
+    line-height: 20px;
+    
+
+}
+.logo,.Menu-Item{
+    cursor: pointer;
+}
+header{
+    padding: 0px 60px 0px 60px;
+    margin-top: 50px;
+}
+/* Header order Button */
+.order-button{
+    background-color:#ff505f;
+    color: azure;
+    padding: 12px 40px;
+    border: none;
+    font-weight: 500;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+main{
+    display: flex; 
+    flex-direction:column ;
+    align-items: center;
+    max-width: 1154px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 119px;
+}
+
+/* Body Heading */
+.Main-Heading{
+    font-family:'Dela Gothic One', cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 104px;
+    line-height: 114px;
+    color: #ffc233;
+}
+/* Body Button */
+.BigButton {
+    background-color:#ff505f;
+    color: azure;
+    padding: 12px 40px;
+    border: none;
+    font-weight: 700;
+    font-size: 32px;
+    cursor: pointer;
+    padding: 24px 56px;
+    margin-top: 64px;
+
+}
+footer {
+        position: absolute;
+        bottom: 20px;
+        right: 40px;
+}
